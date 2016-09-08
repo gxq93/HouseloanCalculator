@@ -1,0 +1,29 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "741A1FFB06FB3FFD02B00E4554C13FF9B4D8F9C1" : 0,
+    "54F1BFF6E539C1E0D59A8E36B8820DD442882490" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E374C1C1-B067-4289-9F27-A0D6BC1A2CA9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "741A1FFB06FB3FFD02B00E4554C13FF9B4D8F9C1" : "",
+    "54F1BFF6E539C1E0D59A8E36B8820DD442882490" : "..\/SubApp"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HouseloanCalculator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HouseloanCalculator.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/120.26.106.157:29418\/SubApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "54F1BFF6E539C1E0D59A8E36B8820DD442882490"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/120.26.106.157:29418\/HouseloanCalculator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "741A1FFB06FB3FFD02B00E4554C13FF9B4D8F9C1"
+    }
+  ]
+}
