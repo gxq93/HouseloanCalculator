@@ -14,13 +14,13 @@
 #import "HCTextInputCell.h"
 #import "HCPickerCell.h"
 
-static NSString *headIdentifier = @"head";
-static NSString *segmentIdentifier = @"segment";
-static NSString *textInputIdentifier1 = @"textInput1"; //商业贷款金额cell
-static NSString *textInputIdentifier2 = @"textInput2"; //公积金贷款金额cell
-static NSString *pickerIdentifier1 = @"picker1";    //贷款年限cell
-static NSString *pickerIdentifier2 = @"picker2";    //商业贷款利率cell
-static NSString *pickerIdentifier3 = @"picker3";    //公积金贷款利率cell
+static NSString * const headIdentifier = @"head";
+static NSString * const segmentIdentifier = @"segment";
+static NSString * const textInputIdentifier1 = @"textInput1"; //商业贷款金额cell
+static NSString * const textInputIdentifier2 = @"textInput2"; //公积金贷款金额cell
+static NSString * const pickerIdentifier1 = @"picker1";    //贷款年限cell
+static NSString * const pickerIdentifier2 = @"picker2";    //商业贷款利率cell
+static NSString * const pickerIdentifier3 = @"picker3";    //公积金贷款利率cell
 
 
 @interface HCMainViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -55,8 +55,6 @@ static NSString *pickerIdentifier3 = @"picker3";    //公积金贷款利率cell
 #pragma mark- lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.signalArray = [[NSMutableArray alloc]init];
     
     self.navigationController.navigationBarHidden = YES;
     
@@ -359,6 +357,13 @@ static NSString *pickerIdentifier3 = @"picker3";    //公积金贷款利率cell
         default:_titleArray = self.mixLoanTitleArray;break;
     }
     return _titleArray;
+}
+
+- (NSMutableArray *)signalArray {
+    if (!_signalArray) {
+        _signalArray = [[NSMutableArray alloc]init];
+    }
+    return _signalArray;
 }
 
 - (NSArray *)loanPeriodArray {
